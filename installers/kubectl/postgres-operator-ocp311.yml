@@ -83,7 +83,7 @@ spec:
                   - name: PGBADGERPORT
                     value: "10000"
                   - name: PGO_ADMIN_PASSWORD
-                    value: "password"
+                    value: "kk22@21m4kam"
                   - name: PGO_ADMIN_PERMS
                     value: "*"
                   - name: PGO_ADMIN_ROLE_NAME
@@ -103,13 +103,13 @@ spec:
                   - name: SCHEDULER_TIMEOUT
                     value: "3600"
                   - name: BACKREST_STORAGE
-                    value: "hostpathstorage"
+                    value: "managed-nfs-storage"
                   - name: BACKUP_STORAGE
-                    value: "hostpathstorage"
+                    value: "managed-nfs-storage"
                   - name: PRIMARY_STORAGE
-                    value: "hostpathstorage"
+                    value: "managed-nfs-storage"
                   - name: REPLICA_STORAGE
-                    value: "hostpathstorage"
+                    value: "managed-nfs-storage"
                   - name: WAL_STORAGE
                     value: ""
                   - name: STORAGE1_NAME
